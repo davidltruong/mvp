@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ItemAdd = (props) => (
-    <form form onSubmit={(e) => {
+    <form onSubmit={(e) => {
       e.preventDefault();
       props.send();
     }} id="add">

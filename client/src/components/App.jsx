@@ -89,6 +89,7 @@ class App extends React.Component {
     return (<div>
       <h1>Monthly Expense Report</h1>
       <ItemAdd send={this.send}/>
+      <h2>Total spent: ${this.state.total}</h2>
       <ChartView categories={this.state.category} total={this.state.total}/>
       <TableView items={this.state.items} total={this.state.total} categories={this.state.category}/>
     </div>)

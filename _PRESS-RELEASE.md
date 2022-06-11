@@ -18,15 +18,15 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
-  Personal budget planner
+  Personal expense report
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-  For anyone looking to save money or see where all their money is going!
+  For anyone looking to see their spending habits via analysis
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-  This budget planner is for anyone that wants to save money or plan for a project or goal. You will have privacy with your own personal login. When logging in, you will be greeted with your budget right in display with different ways to see your current budget. It will be simple and user friendly with the ability to add in line items and delete them at will.
+  This expense report is for anyone looking to see how they have been spending in a certain month. You will be greeted with an easy to use UI where you input your expenses. Your expenses will be saved in the database and showcased on the page in piechart and table format.
 
 ## Problem ##
   > Describe the problem your product solves.
@@ -34,7 +34,7 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
-  My app will let users add in their monthly spending and show that info via percentages, pie graph, line graph etc.
+  My app will let users add in their monthly spending and show that info via percentages, pie graph, etc.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
@@ -42,7 +42,7 @@ Once the project moves into development, the press release can be used as a touc
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
-  All you need to do is create an account and start adding in expenses 1 item at a time.
+  All you need to do is start adding in expenses 1 item at a time.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.

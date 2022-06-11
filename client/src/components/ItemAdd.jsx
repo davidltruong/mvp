@@ -18,7 +18,7 @@ const ItemAdd = (props) => (
         <input id="amount" type="Number" step="0.01"></input>
       </div>
       <div>
-        <input id="submit" type="submit"></input>
+        <input id="submit" type="submit" ></input>
       </div>
     </form>
 )

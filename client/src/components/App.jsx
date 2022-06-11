@@ -18,6 +18,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    this.get()
+  }
+
+  get() {
     $.get('/getBudget', (data) => {
 
       // For setting up total amount on monthly spending
@@ -73,7 +77,7 @@ class App extends React.Component {
         amount: amount
       },
       success:() => {
-        this.componentDidMount();
+        setTimeout(this.get(),500);
       },
       error:() => {
         console.log("Error")
@@ -83,7 +87,7 @@ class App extends React.Component {
 
   render () {
     return (<div>
-      <h1>Monthly Expenses</h1>
+      <h1>Monthly Expense Report</h1>
       <ItemAdd send={this.send}/>
       <ChartView categories={this.state.category} total={this.state.total}/>
       <TableView items={this.state.items} total={this.state.total} categories={this.state.category}/>

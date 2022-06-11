@@ -17,12 +17,16 @@ app.post('/', (req, res) => {
   let category = req.body.category;
   let item = req.body.item;
   let amount = req.body.amount;
+  category = category.toLowerCase();
+  item = item.toLowerCase();
   let budgetObj = {
     category: category,
     item: item,
     amount: amount
   }
-  db.save(budgetObj)
+  db.save(budgetObj, () => {
+    res.send('Done')
+  })
 })
 
 app.get('/delete', (req,res) => {

@@ -31,7 +31,6 @@ const TableView = (props) => (
                   <th><strong>%/Total</strong></th>
                 </tr>
               </thead>
-              {console.log(props.categories)}
               {
                 category[key].map((item, index) => {
                   return (
